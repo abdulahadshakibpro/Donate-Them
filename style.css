@@ -1,0 +1,172 @@
+.frame{
+    z-index: -1;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    width:1262px;
+    height:500px;
+}
+nav > ul{
+    display:flex;
+}
+.dropdown{
+    display:none;
+    padding:0;
+}
+.dropdown li{
+padding:0;}
+nav > ul > li:hover > ul{
+    position:absolute;
+    display:block;
+}
+ ul, li{
+list-style:none;
+padding: 0px 20px;
+ }
+ li a:hover{
+    background:green;
+    color:white;
+ }
+ li, a{
+    text-decoration:none;
+    color:green;
+    font-size:20px;
+ }
+ .main-text{
+    text-align:center;
+    padding-top:50px;
+ }
+ .donate-one{
+    color:white;
+    background:green;
+    padding:10px;
+    border-radius:5px;
+ }
+ .secound-part{
+    text-align:center;
+ }
+ .donate-now:hover{
+    color:green;
+    transform: scale(1.5);
+ }
+ .tk{
+    display:flex;
+    text-align:center;
+    padding-left:250px;
+ }
+ .takar-box{
+width:100px;
+height:100px;
+padding:10px;
+margin: 10px;
+background:lightgreen;
+ }
+ .takar-box:hover{
+    border-radius:15px;
+    border-left:green 5px solid;
+    border-right: orange solid 5px;
+    transform: scale(1.1);
+ }
+ .donation-plan{
+    text-align:center;
+ }
+ .three-div{
+    display:flex;
+    padding-left:115px;
+    
+ }
+ .family-div{
+    text-align:justify;
+    width:300px;
+    height:250px;
+    background:lightgreen;
+    padding:0px 10px;
+    margin: 0px 10px;
+ }
+ .family-div:hover{
+    transform: scale(1.1);
+    border-left: 7px solid orange;
+    border-right: 7px solid green;
+    border-radius:10px;
+    transition: ease 1s;
+ }
+ .frist-container{
+    display:flex;
+    padding-left:90px;
+ }
+ .div-one{
+    width:350px;
+    height:305px;
+    padding: 0 30px;
+    margin:0 30px;
+ }
+ .div-one img{
+    width:130%;
+ }
+ .div-onee{
+    width:350px;
+    height:305px;
+    padding-left:200px;
+    
+ }
+ .contribute{
+    background:green;
+    padding: 15px 20px;
+    color:White;
+ }
+ .contribute:hover{
+    border-left: rgb(0, 0, 0) 5px solid;
+    border-right: rgb(5, 5, 5) 5px solid;
+    border-radius:15px;
+    transform: scale(1.5);
+ }
+ p{
+    font-size:19px;
+ }
+ 
+.get-my-updates{
+    text-align:center;
+}
+.last-div{
+    margin-left:290px;
+    margin-bottom:50px;
+    width:700px;
+    height:170px;
+    background:lightgoldenrodyellow;
+}
+.last-div:hover{
+    transform: scale(1.1);
+    border-top:green 5px solid;
+    border-bottom:green 5px solid;
+    border-radius:10px;
+}
+.last-div{
+    display:flex;
+}
+.gmail{
+    width:300px;
+    padding-top:75px;
+    padding-left:75px;
+}
+footer{
+    width:100%;
+    height:200px;
+    background:rgb(59, 57, 57);
+}
+footer{
+    text-align:center;
+    padding-top:50px;
+    border-top:tomato 5px solid;
+    border-bottom:tomato 5px solid;
+    border-radius:10px;
+}
+.footer-one{
+    color:tomato;
+    font-family: "Playfair Display", serif;
+}
+.footer-two{
+    color:white;
+    font-family: "Playfair Display", serif;
+}
